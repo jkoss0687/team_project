@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.seat-chart {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.available {
+  background-color: green;
+  width: 24%;
+  margin: auto;
+  min-height: 100px;
+  display: inline-block;
+}
+
+.reserved {
+  background-color: red;
+  width: 24%;
+  margin: auto;
+  min-height: 100px;
+  display: inline-block;
+}
+/* start of the footer */
+footer {
+	width: 80%;
+	margin: 0 auto;
+	height: 50px;
+	border: 2px ridge black;
+	box-shadow: 0 0 10px gray;
+}
+
+footer p {
+	margin: 1em;
+}
