@@ -24,13 +24,31 @@ body {
 }
 /* start of the footer */
 footer {
-	width: 80%;
-	margin: 0 auto;
-	height: 50px;
+	width: 76%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
 	border: 2px ridge black;
 	box-shadow: 0 0 10px gray;
 }
 
 footer p {
+	margin: 22px;
+	display: inline-block;
+	font-size: 30px;
+}
+footer ul {
+	float: right;
+}
+footer li {
+	list-style-type: none;
+	display: inline-block;
 	margin: 1em;
+	box-shadow: 0 0 5px gray;
+	
+}
+footer img {
+	height 50px;
+	width: 50px;
+	box-shadow: 0 0 10px gray;
 }
