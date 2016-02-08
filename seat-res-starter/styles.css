@@ -21,7 +21,9 @@ h1 {
   margin: 0 auto;
   min-height: 100px;
   display: inline-block;
+
 }
+
 
 .reserved {
   background-color: red;
