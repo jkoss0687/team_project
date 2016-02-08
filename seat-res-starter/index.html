@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seat Reservation App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script type="text/javascript" type="text/jscript" src="http://code.jquery.com/jquery.js"></script>
+  <!-- sticky footer -->
+  <script>
+    $(document).ready(function () {
+      var bHeight = $("body").height();
+      var vpHeight = $(window).height();
+      if (vpHeight > bHeight) {
+        $("footer#sticky").css("position","absolute").css("bottom",0);
+      }
+    });
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <p>
+    <ul class="gcnav">
+      <li class="gcnav"><a href="index.html">Home</a></li>
+      <li class="gcnav"><a href="schedule.html">Show Schedule</a></li>
+      <li class="gcnav"><a href="seats.html">Seat Reservatons</a></li>
+      <li class="gcnav"><a href="history.html">Theatre History</a></li>
+      <li class="gcnav"><a href="location.html">Location</a></li>
+      <li class="gcnav"><a href="contact.html">Contact</a></li>
+    </ul>
+    </p>
+    <div class="logo">
+      <img src="images/gclogo.jpg" alt="Grand Circus Theatre Logo" width:"100px;height:134px;">
+    </div>
+  </header>
+<body class="container">
+  <h1 style="margin:100px 0 0 0;">Seating Reservations</h1>
+  <p>Cupcake ipsum dolor sit amet. Donut topping croissant sesame snaps wafer marzipan cake sweet roll.
+     Fruitcake caramels pudding jelly beans jelly apple pie. Bear claw candy brownie caramels halvah brownie powder.
+     Fruitcake fruitcake sesame snaps candy canes bonbon donut chupa chups pastry.
+     Gummi bears brownie topping tart gingerbread danish.</p>
+
+  <section class="seat-chart">
+    <!-- This section will contain seats with one of two classes. Eventually, the divs will be generated with JavaScript! Keep this in mind when making decisions about the layout. -->
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
+  </section>
+<footer id="sticky">
+  <p>&copy; GC</p>
+  <ul>
+    <li class="gcfoot"><a href="https://www.gmail.com"><img src="images/email.png" alt="email" width="72" height="72"</a></li>
+    <li class="gcfoot"><a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook" width="72" height="72"></a></li>
+    <li class="gcfoot"><a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn" width="72" height="72"></a></li>
+  </ul>
+</footer>  
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                                                                             
+
+
