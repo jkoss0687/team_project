@@ -3,7 +3,20 @@ body {
 	margin: 0;
 	padding: 0;
 }
+/*start of the header*/
+header {
+	height: 35px;
+}
+header img {
+	display: inline-block;
+	height: 75px;
+	width: 80px;
+	float: left;
+	margin: 1em;
+}
+
 h1 {
+	margin-top: 100px;
 	color: black;
 	text-align: center;
 	font-family: Arial;
@@ -38,37 +51,40 @@ footer {
 	height: 50px;
 	border: 2px ridge black;
 	box-shadow: 0 0 10px gray;
+	background-color: #9d0b09;
+}
+ footer ul {
+	display: inline-block;
+	float: right; 	
 }
 
-
 footer p {
-	margin: 1em;
+	margin: .8em;
+	display: inline-block;
+	color: white;
+	font-size: 17px;
 }
 /* style for logo */
 
-div.logo { 
-  position: absolute;
-	left:0;
-	top:0;
-  margin: 0;
-  width:100px;
-  height:134px;
-}
+
 
 /* start of the navigation */
+nav {
+	width: 100%;
+	background-color: #9d0b09;
+}
 ul.gcnav {
+	display: inline-block;
     list-style-type: none;
-    position: absolute;
-    top: 0px;
-    left: 100px;
-    overflow: hidden;
     background-color: #9d0b09;
+    height: 80px;
 }
 
 li.gcnav {
     float: left;
     font-size: 12px;
     font-family: Arial;
+    height: 80px;
 }
 
 li.gcnav a {

@@ -5,6 +5,17 @@
   <title>Seat Reservation App</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
+   <script type="text/javascript" type="text/jscript" src="http://code.jquery.com/jquery.js"></script>
+  <!-- sticky footer -->
+  <script>
+    $(document).ready(function () {
+      var bHeight = $("body").height();
+      var vpHeight = $(window).height();
+      if (vpHeight > bHeight) {
+        $("footer#sticky").css("position","absolute").css("bottom",0);
+      }
+    });
+  </script>
 </head>
 <body class="container">
   <h1>Ye Olde Front-End Theatre</h1>
