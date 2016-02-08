@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Seat Reservation App</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
   <script type="text/javascript" type="text/jscript" src="http://code.jquery.com/jquery.js"></script>
   <!-- sticky footer -->
   <script>
@@ -15,7 +16,6 @@
       }
     });
   </script>
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -49,13 +49,57 @@
     <div class="reserved"></div>
     <div class="available"></div>
     <div class="reserved"></div>
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="available"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
+    <div class="available"></div>
+    <div class="reserved"></div>
   </section>
-<footer id="sticky">
+
+  <form action="action_page.php">
+    <fieldset>
+      <legend>Reservation Information:</legend>
+        First name:
+        <input type="text" name="firstname">
+        Last name:
+        <input type="text" name="lastname">
+        <br><br>
+        Phone:
+        <input type="text" name="phone">
+        Email:
+        <input type="text" name="email">
+        <br><br>
+        # of Guest:
+        <input type="number" name="number">
+        Date:
+        <input type="text" name="date">
+        Time: 
+        <input type="text" name="time">
+        <br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+
+
+<footer id="sticky" class="container-fluid">
   <p>&copy; GC</p>
   <ul>
-    <li class="gcfoot"><a href="https://www.gmail.com"><img src="images/email.png" alt="email" width="72" height="72"</a></li>
-    <li class="gcfoot"><a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook" width="72" height="72"></a></li>
-    <li class="gcfoot"><a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn" width="72" height="72"></a></li>
+    <li class="gcfoot"><a href="https://www.gmail.com"><img src="images/email.png" alt="email" width="40em" height="40em"</a></li>
+    <li class="gcfoot"><a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook" width="40em" height="40em"></a></li>
+    <li class="gcfoot"><a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn" width="40em" height="40em"></a></li>
   </ul>
 </footer>  
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>

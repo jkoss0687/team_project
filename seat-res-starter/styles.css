@@ -10,34 +10,36 @@ h1 {
 }
 
 .seat-chart {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+  padding:3%;
 }
 
 .available {
   background-color: green;
-  width: 24%;
-  margin: auto;
+  width: 15%;
+  margin: 0 auto;
   min-height: 100px;
   display: inline-block;
 }
 
 .reserved {
   background-color: red;
-  width: 24%;
-  margin: auto;
+  width: 15%;
+  margin: 0 auto;
   min-height: 100px;
   display: inline-block;
 }
 
 /* start of the footer */
 footer {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 	height: 50px;
 	border: 2px ridge black;
 	box-shadow: 0 0 10px gray;
 }
+
 
 footer p {
 	margin: 1em;
@@ -87,4 +89,29 @@ li.gcfoot {
   image-size: 10px;
   list-style-type: none;
   text-align: right;
+}
+
+form { border: 1px solid grey;
+       padding: 5px;
+       margin: 5%;
+       border-radius: 10px;
+
+      }
+
+      input[type=submit]
+{
+   text-align:center;
+  
+}
+
+.gcfoot{
+  display: inline-block;
+  margin: 2% auto;
+}
+
+
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
 }
