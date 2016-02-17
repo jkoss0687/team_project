@@ -4,4 +4,6 @@
       if (vpHeight > bHeight) {
         $("footer#sticky").css("position","absolute").css("bottom",0);
       }
-    });
+    
+
+ });
