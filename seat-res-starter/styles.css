@@ -35,11 +35,8 @@ h1 {
   margin: 0 auto;
   min-height: 100px;
   display: inline-block;
-<<<<<<< HEAD
   border-radius: 15px;
-=======
   overflow: hidden;
->>>>>>> 4102e245a65a0a4151504cae8a82b9617b6db69f
 
   
 }
@@ -51,12 +48,9 @@ h1 {
   margin: 0 auto;
   min-height: 100px;
   display: inline-block;
-<<<<<<< HEAD
   border-radius: 15px;
-
-=======
   overflow: hidden;
->>>>>>> 4102e245a65a0a4151504cae8a82b9617b6db69f
+
 }
 
 /* start of the footer */
