@@ -10,7 +10,8 @@
     $('.form-Toggle').slideToggle('slow')
     $(this).toggleClass('reserved')
       currentSeat = $(this);
-   });   
+   });  
+    
  $('button').on('click', function(e){
     e.preventDefault();
       var inputs = $('form').serializeArray();
@@ -19,8 +20,7 @@
         formObj[input.name] = input.value;
       });
       currentSeat.prepend(formObj.firstname, '<br>', formObj.lastname);
-      
- });
+       });
  });
 
 
