@@ -26,27 +26,37 @@ h1 {
   width: 100%;
   margin: 0 auto;
   padding:3%;
+  display: inline-block;
 }
 
 .available {
   background-color: green;
-  width: 15%;
+  width: 160px;
   margin: 0 auto;
   min-height: 100px;
   display: inline-block;
+<<<<<<< HEAD
   border-radius: 15px;
+=======
+  overflow: hidden;
+>>>>>>> 4102e245a65a0a4151504cae8a82b9617b6db69f
 
+  
 }
 
 
 .reserved {
   background-color: red;
-  width: 15%;
+  width: 160px;
   margin: 0 auto;
   min-height: 100px;
   display: inline-block;
+<<<<<<< HEAD
   border-radius: 15px;
 
+=======
+  overflow: hidden;
+>>>>>>> 4102e245a65a0a4151504cae8a82b9617b6db69f
 }
 
 /* start of the footer */
