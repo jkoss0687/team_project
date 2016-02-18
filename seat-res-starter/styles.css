@@ -26,24 +26,28 @@ h1 {
   width: 100%;
   margin: 0 auto;
   padding:3%;
+  display: inline-block;
 }
 
 .available {
   background-color: green;
-  width: 15%;
+  width: 160px;
   margin: 0 auto;
   min-height: 100px;
   display: inline-block;
+  overflow: hidden;
 
+  
 }
 
 
 .reserved {
   background-color: red;
-  width: 15%;
+  width: 160px;
   margin: 0 auto;
   min-height: 100px;
   display: inline-block;
+  overflow: hidden;
 }
 
 /* start of the footer */
