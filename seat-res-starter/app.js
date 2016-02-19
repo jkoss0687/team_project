@@ -6,11 +6,11 @@
       var bHeight = $("body").height();
       var vpHeight = $(window).height();
       if (vpHeight > bHeight) {
-        $("footer#sticky").css("position", "absolute").css("bottom",0);
+        // $("footer#sticky").css("position", "absolute").css("bottom",0);
       };
-
+      var seatChart = $('.seat-chart');
       for (var i = 1; i <= 24; i++) {
-        var $div = $('<div />').appendTo('body');
+        var $div = $('<div />').appendTo('.seat-chart');
         // seats[i]
         $('div').addClass("available");
         $('div').addClass("availSeat");
@@ -20,13 +20,15 @@
 
        $(".available").on('click', function(){
           $('.form-Toggle').slideToggle('slow')
-          $(this).toggleClass('reserved')
+          // $(this).toggleClass('reserved')
             currentSeat = $(this);
           var $div = $('<div />').appendTo('section');   
            $('div').append(available);
          }); 
 
   $('button').on('click', function(e){
+      $('.available').removeClass('available').addClass('reserved');
+      $('.availSeat').removeClass('.availSeat').addClass('reserved');
     e.preventDefault();
       var inputs = $('form').serializeArray();
       var formObj = {};

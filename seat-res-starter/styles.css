@@ -23,7 +23,7 @@ h1 {
 
 .seat-chart {
   width: 100%;
-  margin: 0 auto;
+  margin-bottom: 5em;
   padding:3%;
 }
 
@@ -59,12 +59,13 @@ h1 {
 
 /* start of the footer */
 footer {
-  width: 100%;
-  margin: 0 auto;
+  width: 81.2em;
   height: 50px;
   border: 2px #008BCE;
-  box-shadow: 0 0 10px gray;
   background-color: #008BCE;
+  position: fixed;
+  bottom: 0;
+
 }
 footer ul {
   display: inline-block;
@@ -77,7 +78,6 @@ footer p {
   color: white;
   font-size: 17px;
 }
-/* style for logo */
 /* start of the navigation */
 nav {
   width: 100%;
