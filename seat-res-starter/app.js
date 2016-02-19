@@ -3,11 +3,6 @@
       var available, 
           availSeat,
           reserved;
-      var bHeight = $("body").height();
-      var vpHeight = $(window).height();
-      if (vpHeight > bHeight) {
-        // $("footer#sticky").css("position", "absolute").css("bottom",0);
-      };
       var seatChart = $('.seat-chart');
       for (var i = 1; i <= 24; i++) {
         var $div = $('<div />').appendTo('.seat-chart');

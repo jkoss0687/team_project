@@ -65,7 +65,6 @@ footer {
   background-color: #008BCE;
   position: fixed;
   bottom: 0;
-
 }
 footer ul {
   display: inline-block;
@@ -78,6 +77,7 @@ footer p {
   color: white;
   font-size: 17px;
 }
+
 /* start of the navigation */
 nav {
   width: 100%;
