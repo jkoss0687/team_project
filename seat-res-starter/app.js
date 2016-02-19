@@ -1,6 +1,7 @@
  $(document).ready(function () {
       var currentSeat;
-      var available,
+      var available, 
+          availSeat,
           reserved;
       var bHeight = $("body").height();
       var vpHeight = $(window).height();
@@ -12,6 +13,8 @@
         var $div = $('<div />').appendTo('body');
         // seats[i]
         $('div').addClass("available");
+        $('div').addClass("availSeat");
+      
 
       }
 
@@ -23,8 +26,7 @@
            $('div').append(available);
          }); 
 
-    
- $('button').on('click', function(e){
+  $('button').on('click', function(e){
     e.preventDefault();
       var inputs = $('form').serializeArray();
       var formObj = {};
@@ -32,7 +34,8 @@
         formObj[input.name] = input.value;
       });
       currentSeat.prepend(formObj.firstname, '<br>', formObj.lastname);
-       });
+      
+ });
  });
 
 

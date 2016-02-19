@@ -1,91 +1,92 @@
-@@ -0,0 +1,36 @@
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 /*start of the header*/
 header {
-	height: 35px;
+  height: 75px;
 }
 header img {
-	display: inline-block;
-	height: 75px;
-	width: 80px;
-	float: left;
-	margin: 1em;
+  display: inline-block;
+  height: 75px;
+  width: 115px;
+  float: left;
+  margin: 1em;
 }
 
 h1 {
-	margin-top: 100px;
-	color: black;
-	text-align: center;
-	font-family: Arial;
+  margin-top: 100px;
+  color: black;
+  text-align: center;
+  font-family: Arial;
 }
 
 .seat-chart {
   width: 100%;
   margin: 0 auto;
   padding:3%;
-  display: inline-block;
 }
 
 .available {
-  background-color: green;
-  width: 160px;
+  background-color: none;
+  width: 15%;
   margin: 0 auto;
   min-height: 100px;
   display: inline-block;
-  border-radius: 15px;
   overflow: hidden;
 
-  
+}
+ .availSeat {
+  background-image: url('images/seat-avail.png');
+  margin: 0;
+  border: 0;
+  max-width: 100%;
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
 }
 
 
 .reserved {
-  background-color: red;
-  width: 160px;
+  width: 15%;
   margin: 0 auto;
   min-height: 100px;
   display: inline-block;
-  border-radius: 15px;
   overflow: hidden;
-
+  background-image: url('images/seat-res.png');
 }
 
 /* start of the footer */
 footer {
-	width: 100%;
-	margin: 0 auto;
-	height: 50px;
-	border: 2px ridge black;
-	box-shadow: 0 0 10px gray;
-	background-color: #9d0b09;
+  width: 100%;
+  margin: 0 auto;
+  height: 50px;
+  border: 2px #008BCE;
+  box-shadow: 0 0 10px gray;
+  background-color: #008BCE;
 }
- footer ul {
-	display: inline-block;
-	float: right; 	
+footer ul {
+  display: inline-block;
+  float: right;   
 }
 
 footer p {
-	margin: .8em;
-	display: inline-block;
-	color: white;
-	font-size: 17px;
+  margin: .8em;
+  display: inline-block;
+  color: white;
+  font-size: 17px;
 }
 /* style for logo */
-
-
-
 /* start of the navigation */
 nav {
-	width: 100%;
-	background-color: #9d0b09;
+  width: 100%;
+  background-color: #008BCE;
 }
 ul.gcnav {
-	display: inline-block;
+  display: inline-block;
     list-style-type: none;
-    background-color: #9d0b09;
+    background-color: #008BCE;
     height: 80px;
 }
 
@@ -106,13 +107,23 @@ li.gcnav a {
 }
 
 li.gcnav a:hover {
-    background-color: #000000;
+    background-color: #F58235;
     color: white;
     text-decoration: none;
 }
 li.gcfoot {
   list-style-type: none;
   text-align: right;
+}
+
+ul.key {
+  list-style-type: none;
+}
+
+li.key {
+  text-align: left;
+  font-family: Arial;
+  display: block;
 }
 
 form { border: 1px solid grey;
