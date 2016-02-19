@@ -1,29 +1,16 @@
  $(document).ready(function () {
       var currentSeat;
-      var available,
-          reserved;
       var bHeight = $("body").height();
       var vpHeight = $(window).height();
       if (vpHeight > bHeight) {
-        $("footer#sticky").css("position", "absolute").css("bottom",0);
+        $("footer#sticky").css("position","absolute").css("bottom",0);
       };
 
-      for (var i = 1; i <= 24; i++) {
-        var $div = $('<div />').appendTo('body');
-        // seats[i]
-        $('div').addClass("available");
-
-      }
-
-       $(".available").on('click', function(){
-          $('.form-Toggle').slideToggle('slow')
-          $(this).toggleClass('reserved')
-            currentSeat = $(this);
-          var $div = $('<div />').appendTo('section');   
-           $('div').append(available);
-         }); 
-
-    
+ $(".available").on('click', function(){
+    $('.form-Toggle').slideToggle('slow')
+    $(this).toggleClass('reserved')
+      currentSeat = $(this);
+   });   
  $('button').on('click', function(e){
     e.preventDefault();
       var inputs = $('form').serializeArray();
@@ -32,7 +19,8 @@
         formObj[input.name] = input.value;
       });
       currentSeat.prepend(formObj.firstname, '<br>', formObj.lastname);
-       });
+      
+ });
  });
 
 
